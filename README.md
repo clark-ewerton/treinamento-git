@@ -1,10 +1,16 @@
 
+<<<<<<< HEAD
 <div align="center">
 <h1>Aprenda conceitos de git, não comandos</h1>
 <h4>Um tutorial interativo de git, destinado a ensinar como o git funciona, não apenas quais comandos executar.</h3>
 <i>Esse treinamento é quase de graça, basta deixar uma star ⭐ no <a href="https://github.com/PauloGoncalvesBH/treinamento-git">repositório</a>.</i>
 </div>
 <br>
+=======
+# Aprenda conceitos de `git`, não comandos
+
+**Um tutorial interativo de git, destinado a ensinar como o git funciona, não apenas quais comandos executar.**
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 
 Então você quer usar o git, certo?
 
@@ -14,13 +20,21 @@ Então isso é para você!
 
 Vamos começar!
 
+<<<<<<< HEAD
 > Esse treinamento é uma tradução e adaptação do excelente conteúdo [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc), de [Nicola Riedmann](https://www.linkedin.com/in/nicola-michel-henry-riedmann/). Thanks Nico 😊
+=======
+> Esse treinamento é uma tradução do excelente conteúdo [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc), de [Nicola Riedmann](https://www.linkedin.com/in/nicola-michel-henry-riedmann/). Thanks Nico 😊
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 
 ---
 
 > Com base no conceito geral da postagem do blog de Rachel M. Carmena em [How to teach Git](https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html).
 >
+<<<<<<< HEAD
 > Embora eu ache muitos tutoriais de git na internet focados no que fazer, ao invés de como as coisas funcionam, o recurso mais inestimável para ambos (e a fonte para este tutorial!) é o [Pro Git Book (traduzido para PT-BR)](http://git-scm.com/book/pt-br) e a [página de referência](https://git-scm.com/docs).
+=======
+> Embora eu ache muitos tutoriais de git na internet focados no que fazer, ao invés de como as coisas funcionam, o recurso mais inestimável para ambos (e a fonte para este tutorial!) é o [Pro Git Book](https://git-scm.com/book/en/v2) e a [página de referência](https://git-scm.com/docs).
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 >
 > Então, se você ainda estiver interessado quando terminar aqui, vá conferir! Espero que o conceito um pouco diferente deste tutorial o ajude a entender todos os outros recursos git detalhados lá.
 
@@ -91,7 +105,11 @@ O que o `git clone` também faz é criar uma nova pasta no local aonde você exe
 Alguém já colocou um arquivo chamado `Alice.txt` no _Remote Repository_. É meio solitário lá, então vamos criar um novo arquivo e chamá-lo de `Bob.txt`.
 
 O que você acabou de fazer é adicionar um arquivo no seu _Working Directory_.
+<<<<<<< HEAD
 Existem dois tipos de arquivos no seu _Working Directory_: Arquivos _tracked_, que o git conhece, e _untracked_, arquivos que o git (ainda) não conhece.
+=======
+Existem dois tipos de arquivos no seu _Working Directory_: arquivos _tracked_ que o git conhece, e _untracked_ arquivos que o git (ainda) não conhece.
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 
 <!-- tracking_files.png -->
 ![Rastreando arquivos](https://user-images.githubusercontent.com/29241659/87481065-f91fc880-c604-11ea-8c30-97a963fb0533.png)
@@ -120,7 +138,11 @@ Para compartilhar seus commits com o _Remote Repository_ você precisa empurrá-
 <!-- push.png -->
 ![Enviando para o repositório remoto](https://user-images.githubusercontent.com/29241659/87479430-da6c0280-c601-11ea-837a-105a696abb52.png)
 
+<<<<<<< HEAD
 Depois de executar o comando `git push` as alterações serão enviadas para o _Remote Repository_. No diagrama abaixo, você vê o estado após o seu `push`.
+=======
+Depois de executar o comando `git push`, as alterações serão enviadas para o _Remote Repository_. No diagrama abaixo, você vê o estado após o seu `push`.
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 
 <!-- after_push.png -->
 ![Estado de todos os componentes após enviar as alterações](https://user-images.githubusercontent.com/29241659/87479605-2c148d00-c602-11ea-8103-0e72183059ab.png)
@@ -128,14 +150,22 @@ Depois de executar o comando `git push` as alterações serão enviadas para o _
 ## Fazendo mudanças
 Até agora apenas adicionamos um novo arquivo. Obviamente a parte mais interessante do controle de versão é a alteração de arquivos.
 
+<<<<<<< HEAD
 Dê uma olhada no arquivo `Alice.txt`.
+=======
+Dê uma olhada no `Alice.txt`.
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 
 Na verdade ele contém algum texto, mas `Bob.txt` não, então vamos mudar isso e colocar `Oi!! Eu sou o Bob. Eu sou novo aqui.`.
 
 Se você executar o `git status` agora, verá que o `Bob.txt` está modificado (`modified`).
 Nesse estado as alterações estão apenas no seu _Working Directory_.
 
+<<<<<<< HEAD
 Se você deseja ver o que mudou no seu _Working Directory_, você pode executar o `git diff` e ver a seguinte saída:
+=======
+Se você deseja ver o que mudou no seu _Working Directory_, você pode executar o `git diff`, e agora veja o seguinte:
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 
 ```Diff
 diff --git a/Bob.txt b/Bob.txt
@@ -154,9 +184,15 @@ Para mostrar quais mudanças já estão na _Staging Area_, podemos executar `git
 
 Acabei de notar que colocamos dois pontos de exclamação após o 'Oi'. Eu não gosto disso, então vamos mudar o `Bob.txt` novamente, para que seja apenas 'Oi!'
 
+<<<<<<< HEAD
 Se agora rodarmos `git status`, veremos que existem duas mudanças: A que já enviamos para a _Staging Area_, onde adicionamos texto, e a que acabamos de fazer, que ainda está apenas no diretório de trabalho.
 
 Podemos dar uma olhada no `git diff` entre o _Working Directory_ e o que já enviamos para a _Staging Area_, para mostrar o que mudou desde que nos sentimos prontos para realizar um commit das mudanças.
+=======
+Se agora rodarmos `git status`, veremos que existem duas mudanças: a que já enviamos para a _Staging Area_, onde adicionamos texto, e a que acabamos de fazer, que ainda está apenas no diretório de trabalho.
+
+Podemos dar uma olhada no `git diff` entre o _Working Directory_ e o que já enviamos para a _Staging Area_, para mostrar o que mudou desde que nos sentimos prontos realizar um commit das mudanças.
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 
 ```Diff
 diff --git a/Bob.txt b/Bob.txt
@@ -173,7 +209,11 @@ Como a mudança é o que queríamos, vamos executar `git add Bob.txt` para envia
 Agora estamos prontos para realizar o `commit` com o que acabamos de fazer. Eu criei o commit com `git commit -m "Alterar texto de Bob"` porque senti que, para uma mudança tão pequena, escrever uma linha seria suficiente.
 
 Como sabemos, as alterações estão agora no _Local Repository_.
+<<<<<<< HEAD
 Ainda podemos querer saber que mudança acabamos de commitar e o que havia antes.
+=======
+Ainda podemos querer saber que mudança acabamos de nos commitar e o que havia antes.
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 
 Podemos fazer isso comparando commits.
 Todo commit no git tem um hash exclusivo pelo qual é referenciado.
@@ -215,7 +255,11 @@ Aqui vemos algumas coisas interessantes:
 * Seu commit inicial para adicionar Bob é o _HEAD_ atual da branch _master_ no _Remote Repository_. Veremos isso novamente quando falarmos sobre ramificações (branches) e obter alterações remotas.
 * O último commit no _Local Repository_ é o que acabamos de fazer e agora sabemos o seu hash.
 
+<<<<<<< HEAD
 > Observe que os hashes dos commits serão diferentes para você. Se você quiser saber exatamente como o git chega a esses IDs de revisão, dê uma olhada [neste artigo sobre a anatomia de um commit](https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html).
+=======
+> Observe que os hashes dos commits serão diferentes para você. Se você quiser saber exatamente como o git chega a esses IDs de revisão, dê uma olhada [neste interessante artigo](https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html).
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 
 Para comparar esse commit e o anterior, podemos utilizar `git diff <commit>^!` (Onde `^!` diz ao git para comparar o commit com o que veio antes dele). Portanto, neste caso, eu executo `git diff 87a4ad48d55e5280aa608cd79e8bce5e13f318dc^!`.
 
@@ -236,9 +280,13 @@ De fato, trabalhamos em uma branch desde que começamos.
 
 Quando você clona o _Remote Repository_, seu _Dev Environment_ inicia automaticamente na ramificação principal do repositório, ou seja, _master_.
 
+<<<<<<< HEAD
 > Há um movimento atual para a branch principal deixar de ser chamada como _master_ e passar a ser _trunk_ ou _main_. Linux, Github e outras companhias estão adotando a nova nomenclatura. É uma ótima proposta e totalmente alinhada ao movimento `#BlackLivesMatter`. Você pode entender mais lendo o artigo [The bigger picture behind the GitHub master branch name change](https://dev.to/sylviapap/the-bigger-picture-behind-the-github-master-branch-name-change-35h8).
 
 A maioria dos fluxos de trabalho com o git incluem fazer suas alterações em uma _branch_ antes de você mesclá-las (`merge`) novamente na _master_.
+=======
+A maioria dos fluxos de trabalho com o git inclui fazer suas alterações em uma _branch_ antes de você mesclá-las (`merge`) novamente na _master_.
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 Normalmente você estará trabalhando por conta própria até que esteja pronto e confiante das suas alterações, que poderão ser mescladas (mergeadas) na _master_.
 
 > Muitos gerenciadores de repositório git, como o _GitLab_ e o _GitHub_, permitem que as branches sejam _protegidas_, o que significa que nem todo mundo pode simplesmente empurrar (`push`) as mudanças pra lá. O _master_ geralmente é protegido por padrão.
@@ -272,7 +320,11 @@ Se isso parecer complicado, os diagramas abaixo ajudarão a esclarecer um pouco 
 Para mudar para a nossa nova branch, você terá que usar o comando `git checkout change_alice`. O que isso faz é simplesmente mover o _HEAD_ para a branch que você especificar.
 
 > Como você normalmente deseja mudar para uma branch logo após criá-la, existe a conveniente opção `-b` disponível para o comando `checkout`, que permite realizar `checkout` diretamente em uma branch nova, para que você não precisa criá-la de antemão.
+<<<<<<< HEAD
 >
+=======
+
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 > Então, para criar e mudar para a nossa branch `change_alice`, também poderíamos ter executado `git checkout -b change_alice`. Mais simples, não?
 
 <!-- checkout_branch.png -->
@@ -528,7 +580,11 @@ Vá para o seu `fork`deste repositório no [github.com](https://www.github.com) 
 Encontre o botão de editar o arquivo, faça uma alteração e crie o commit através do site.
 
 <!-- github.png -->
+<<<<<<< HEAD
 ![editar o github](https://user-images.githubusercontent.com/29241659/87483591-739f1700-c60a-11ea-8d27-10c372f2cbb2.png)
+=======
+![editar o github](https://user-images.githubusercontent.com/29241659/87479659-3f275d00-c602-11ea-909f-1777e39a636c.png)
+>>>>>>> 5bdafce... Adicionar texto do tutorial
 
 Neste repositório adicionei uma alteração remota ao `Alice.txt` em uma branch chamada `fetching_changes_sample`, mas na sua versão do repositório você pode, é claro, alterar o arquivo na `master`.
 
@@ -1012,7 +1068,10 @@ Nós poderíamos simplesmente fazer outro `rebase -i` no estado atual, exatament
 Ou usamos o reflog e voltamos para depois do rebase e alteramos o commit a partir daí com `amend`.
 
 Mas agora você já sabe como fazer isso, então deixarei você tentar por conta própria. Além disso, você também sabe que existe o `reflog` que permite desfazer a maioria das coisas que você pode acabar fazendo por engano.
+<<<<<<< HEAD
 
 ---
 
 **Aprendeu algo com o treinamento? É quase de graça, basta deixar uma star ⭐ no [repositório](https://github.com/PauloGoncalvesBH/treinamento-git).**
+=======
+>>>>>>> 5bdafce... Adicionar texto do tutorial
