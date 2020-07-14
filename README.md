@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .mine
+=======
+>>>>>>> 80be362... Adicionar texto do tutorial
 =======
 >>>>>>> 80be362... Adicionar texto do tutorial
 
@@ -1020,6 +1023,7 @@ Mas agora você já sabe como fazer isso, então deixarei você tentar por conta
 ---
 
 **Aprendeu algo com o treinamento? É quase de graça, basta deixar uma star ⭐ no [repositório](https://github.com/PauloGoncalvesBH/treinamento-git).**
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -2116,4 +2120,9 @@ Mas agora você já sabe como fazer isso, então deixarei você tentar por conta
 =======
 =======
 >>>>>>> 80be362... Adicionar texto do tutorial
+<<<<<<< HEAD
 >>>>>>> 3eded32... Adicionar texto do tutorial
+=======
+=======
+>>>>>>> 80be362... Adicionar texto do tutorial
+>>>>>>> 59216a0... Adicionar texto do tutorial
