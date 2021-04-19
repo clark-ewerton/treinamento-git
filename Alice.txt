@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 adicionando nova linha no arquivo da alice
 <<<<<<< .mine
 
@@ -38,3 +39,6 @@ adicionando nova linha no arquivo da alice
 
 adicionando terceira linha alice
 >>>>>>> 5e84bfb... Adicionando terceira linha Alice.txt
+=======
+acabei de alterar a alice na branch clark
+>>>>>>> a3e12da... Modified Alice.txt in clarks branch
