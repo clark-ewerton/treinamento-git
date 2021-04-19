@@ -1,2 +1,5 @@
-Oi! Eu sou Alice. Sou um arquivo que alguém fez uma alteração remotamente!
+acabei de alterar a alice na branch clark<<<<<<< .mine
+
+=======
 Um pouco depois alguém fez outra alteração remota.
+>>>>>>> .theirs
