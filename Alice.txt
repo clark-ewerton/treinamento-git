@@ -1,5 +1,12 @@
-acabei de alterar a alice na branch clark<<<<<<< .mine
+adicionando nova linha no arquivo da alice
+<<<<<<< .mine
+
+adicionando nova linha no arquivo da alice
+
+
+=======
 
 =======
 Um pouco depois alguém fez outra alteração remota.
+>>>>>>> .theirs
 >>>>>>> .theirs
