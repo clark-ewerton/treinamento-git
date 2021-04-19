@@ -1,3 +1,7 @@
 Oi, eu sou o Bob!
 
+<<<<<<< HEAD
 adicionando nova linha no bob pra dar merda hehe - master
+=======
+adicionando nova linha no bob pra dar merda hehe - Victoria
+>>>>>>> 2d15863... modified bob.txt victoria
