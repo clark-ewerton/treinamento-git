@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 adicionando nova linha no arquivo da alice
 <<<<<<< .mine
 
@@ -26,3 +27,8 @@ Um pouco depois alguém fez outra alteração remota.
 =======
 acabei de alterar a alice na branch clark
 >>>>>>> a3e12da... Modified Alice.txt in clarks branch
+=======
+acabei de alterar a alice na branch clark
+
+adicionando nova linha no arquivo da alice
+>>>>>>> 2bd401c... adicionei nova linha arquivo alice.txt
