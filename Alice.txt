@@ -1,6 +1,17 @@
 adicionando nova linha no arquivo da alice
 <<<<<<< .mine
 
+adicionando terceira linha alice<<<<<<< .mine
+adicionando nova linha no arquivo da alice
+
+adicionando terceira linha alice
+
+
+
+
+
+
+=======
 adicionando nova linha no arquivo da alice
 
 
@@ -8,5 +19,6 @@ adicionando nova linha no arquivo da alice
 
 =======
 Um pouco depois alguém fez outra alteração remota.
+>>>>>>> .theirs
 >>>>>>> .theirs
 >>>>>>> .theirs
