@@ -30,5 +30,11 @@ acabei de alterar a alice na branch clark
 =======
 acabei de alterar a alice na branch clark
 
+<<<<<<< HEAD
 adicionando nova linha no arquivo da alice
 >>>>>>> 2bd401c... adicionei nova linha arquivo alice.txt
+=======
+adicionando nova linha no arquivo da alice
+
+adicionando terceira linha alice
+>>>>>>> 5e84bfb... Adicionando terceira linha Alice.txt
